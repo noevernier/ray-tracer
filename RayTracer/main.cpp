@@ -2,7 +2,8 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(300, 600), "RayTracer");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "RayTracer");
+    
 
     while (window.isOpen())
     {
@@ -15,6 +16,8 @@ int main()
         }
 
         window.clear();
+        
+        
 
         window.display();
     }

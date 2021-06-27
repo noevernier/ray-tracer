@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DC9D830E2688F3B700B98661 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9D830D2688F3B700B98661 /* main.cpp */; };
+		DC9D83212688F9E800B98661 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9D831F2688F9E800B98661 /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC9D83052688F3B700B98661 /* RayTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9D830D2688F3B700B98661 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DC9D831D2688F99500B98661 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		DC9D831F2688F9E800B98661 /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		DC9D83202688F9E800B98661 /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,9 @@
 			isa = PBXGroup;
 			children = (
 				DC9D830D2688F3B700B98661 /* main.cpp */,
+				DC9D831D2688F99500B98661 /* utils.h */,
+				DC9D831F2688F9E800B98661 /* Vector.cpp */,
+				DC9D83202688F9E800B98661 /* Vector.hpp */,
 			);
 			path = RayTracer;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9D83212688F9E800B98661 /* Vector.cpp in Sources */,
 				DC9D830E2688F3B700B98661 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
