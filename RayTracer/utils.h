@@ -20,7 +20,10 @@
 #include <atomic>
 #include <utility>
 #include <array>
-#include "Vector.h"
+#include "Vector.hpp"
+
+using namespace sf;
+using namespace std;
 
 
 #endif /* utils_h */
